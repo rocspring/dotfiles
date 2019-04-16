@@ -27,6 +27,8 @@ alias gci='git commit -a -m '
 
 alias gco='git checkout '
 
+alias gcl='git clone '
+
 alias gsh='git show '
 
 alias grep='grep --color'
