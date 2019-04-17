@@ -8,10 +8,10 @@ alias la='ls -la'
 ###############
 # cd alias
 ###############
+alias ..='cd ../'
+
 alias cws='cd ~/workspace'
-
 alias cms='cd ~/myspace'
-
 alias cls='cd ~/learnspace'
 
 ###############
