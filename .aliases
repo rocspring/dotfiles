@@ -9,6 +9,7 @@ alias la='ls -la'
 # cd alias
 ###############
 alias ..='cd ../'
+alias ....='cd ../../'
 
 alias cws='cd ~/workspace'
 alias cms='cd ~/myspace'
@@ -40,6 +41,8 @@ alias gph='git push origin'
 alias gpl='git pull'
 
 alias gdf='git diff'
+
+alias gmg='git merge'
 
 alias glg="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
