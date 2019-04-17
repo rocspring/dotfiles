@@ -9,6 +9,7 @@ alias la='ls -la'
 # cd alias
 ###############
 alias ..='cd ../'
+alias ....='cd ../../'
 
 alias cws='cd ~/Documents/workspace'
 
