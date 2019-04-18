@@ -1,12 +1,12 @@
 function doIt() {
 	# Make a symlink for all dotfiles in this directory
+  # not add .git floder
 	for file in \.[^.]*; do
-		if [ $file != '.DS_Store' ]; then
+		if [ $file != '.DS_Store' -a $file != '.git' ]; then
 			echo "Creating symlink to $file in home directory."
 			ln -sf $PWD/$file ~/$file
 		fi
 	done
-	source ~/.zshrc
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
