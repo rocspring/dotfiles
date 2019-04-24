@@ -24,7 +24,7 @@ alias gb='git branch '
 
 alias gcb='git checkout -b'
 
-alias gci='git commit -a -m '
+alias gci='git commit -a -n -m '
 
 alias gco='git checkout '
 
