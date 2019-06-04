@@ -11,11 +11,11 @@ alias la='ls -la'
 alias ..='cd ../'
 alias ....='cd ../../'
 
-alias cws='cd ~/Documents/workspace'
+alias cws='cd ~/workspace'
 
-alias cms='cd ~/Documents/myspace'
+alias cms='cd ~/myspace'
 
-alias cls='cd ~/Documents/learnspace'
+alias cls='cd ~/learnspace'
 
 ###############
 # git alias
