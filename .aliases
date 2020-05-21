@@ -20,7 +20,7 @@ alias cls='cd ~/learnspace'
 ###############
 # git alias
 ###############
-alias gad='git add'
+alias gad='git status | git add . '
 
 alias gb='git branch '
 
