@@ -28,7 +28,9 @@
 
 [user]
 	name = wangshaopeng
-	email = rocspringwang@gmail.com
+  email = rocspringwang@gmail.com
+[push]
+	default = simple
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
